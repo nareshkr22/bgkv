@@ -115,18 +115,18 @@ function incCounter(p) {
 
 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
 <button id="venue" onclick="get(1)" class="btn btn-info btn-block venue">Venue 1</button>
-<div id="venue_1" class="counter"><?php echo get_count(1)?></div>
+<div id="venue_1" class="counter"><?php echo get_count(1);?></div>
 </div>
 
 
 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
 <button id="venue" onclick="get(2)" class="btn btn-info btn-block venue">Venue 2</button>
-<div id="venue_2" class="counter"><?php echo get_count(2)?></div>
+<div id="venue_2" class="counter"><?php echo get_count(2);?></div>
 </div>
 
 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
 <button id="venue" onclick="get(3)" class="btn btn-info btn-block venue">Venue 3</button>
-<div id="venue_3" class="counter"><?php echo get_count(3)?></div>
+<div id="venue_3" class="counter"><?php echo get_count(3);?></div>
 </div>  
 </div>
 
